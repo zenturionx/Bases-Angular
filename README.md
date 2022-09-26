@@ -4,11 +4,11 @@ Introducción a Angular version 14.2.2.
 
 ## Secciones vistas
 
-1. [Generar un proyecto en Angular](##2).
-2. [Explicación de cada archivo del proyecto](##3).
-3. [¿Qué es un App Component?](##4)
+1. Generar un proyecto en Angular.
+2. Explicación de cada archivo del proyecto.
+3. ¿Qué es el App Component?
 4. Generación de un Component llamado "Contador".
-5. Métodos del Component "Contador".
+5. Temas vistos en este tutorial.
 
 ## Generar un proyecto en Angular
 
@@ -49,14 +49,21 @@ Directorio `src/`: Dentro de esta carpeta se encuentra lo siguiente:
 | app.component.ts   | Archivo que contiene la clase de Typescript del componente "app".        |
 | app.module.ts      | Archivo que contiene la clase de Typescript del módulo "app".            |
 
-## ¿Qué es un App Component?
+## ¿Qué es el App Component?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Es la raíz del proyecto, en donde, si se visualiza el archivo `src/index.html`, se encontrará la marca `<app-root></app-root>`.
 
-## Running end-to-end tests
+## Generación de un Component llamado "Contador"
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Ejecutar la sentencia en consola `ng g c contador`.
 
-## Further help
+## Temas vistos en este tutorial
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Generación de módulos.
+* Generación de componentes.
+* Concepto de "one way data binding".
+* Directiva *ngFor.
+* Directiva *ngIf.
+* Directivas Ng-Template y ngIf-else.
+
+Curso seguido del master [Fernando Herrera](https://twitter.com/fernando_her85) de [Udemy](https://www.udemy.com/course/angular-fernando-herrera/)
